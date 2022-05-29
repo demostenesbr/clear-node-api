@@ -2,5 +2,8 @@
     "extends": "standard-with-typescript", // Entender que o projeto está utilizando o TypeScript
     "parserOptions": {
         "project": "./tsconfig.json" // Arquivo de configuração com o TypeScript
+    },
+    "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "off"
     }
 }
