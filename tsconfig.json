@@ -4,6 +4,6 @@
         "module": "commonjs", // Import e export do JavaScript para o entendimento dos navegadores
         "target": "es2019", // Dizer pra o TypeScript qual versão do JavaScript deseja ser adicionado
         "esModuleInterop": true, // Convenção dos módulos, para funcionar por trás dos panos
-        "allowJs": true, // Compliar arquivos JSON dentro do JavaScript
+        "allowJs": true // Compliar arquivos JSON dentro do JavaScript
     }
 }
